@@ -24,7 +24,6 @@ public class FileOperations {//E:\
 
             Files.list(Path.of("E:\\RFP-Batch\\")).filter(Files::isRegularFile).forEach(System.out::println);
 
-
         }catch (Exception e){
             e.printStackTrace();
         }
